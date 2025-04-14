@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cutom Portfolio</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">Portfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home"  class="hero">
+        <div class="hero-content">
+            <h1>Hello, It's Me</h1>
+            <h2>Cutom, Alyza Jane Dolor S.</h2>
+            <p>Software Developer</p>
+            <p>I am a computer science student</p>
+        </div>
+        <div class="hero-image">
+            <img src="picture/Alyza.jpeg" alt="Alyza picture">
+        </div>
+    </section>
+
+    <section id="about-me" class="about-section">
+      <div class="about-content">
+          <h2>About Me</h2>
+          <h3>Hello, I'm Alyza</h3>
+          <p>I'm a student at Pamantasan ng Lungsod ng San Pablo <br>
+             pursuing a Bachelor of Science in Information technology <br>
+             major in Software Development <br>
+             I am eager to learn and adapt quickly. I'm confident in the path I've choosen <br>
+             And i am passionate about developing my skills in the tech industry.
+          </p>
+      </div>
+      <div class="about-image">
+          <img src="picture/cutom.png" alt="cutom">
+      </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <h2>Skill</h2>
+    <p>I have an experience with these tools:</p>
+    <div class="skill-grid">
+        <div class="skill-item">
+            <div class="skill-logo">
+                <img src="picture/html.png" alt="HTML5 Logo">
+            </div>
+            <p>HTML</p>
+        </div>
+        <div class="skill-item">
+            <div class="skill-logo">
+                <img src="picture/css.png" alt="CSS3 Logo">
+            </div>
+            <p>CSS</p>
+        </div>
+        <div class="skill-item">
+            <div class="skill-logo">
+                <img src="picture/js.png" alt="JavaScript Logo">
+            </div>
+            <p>JavaScript</p>
+        </div>
+        <div class="skill-item">
+            <div class="skill-logo">
+                <img src="picture/csharp.png" alt="Csharp Logo">
+            </div>
+            <p>Csharp</p>
+        </div>
+        <div class="skill-item">
+          <div class="skill-logo">
+              <img src="picture/capcut.png" alt="CapcutLogo">
+          </div>
+          <p>Capcut</p>
+      </div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-logo">
+          <img src="picture/visual.png" alt="Visual Logo">
+      </div>
+      <p>Visual Studio Code</p>
+  </div>
+    </div>
+</section>
+    
+<section id="contact-me" class="contact-section">
+  <div class="contact-text">
+      <div class="contact-title">
+          <h1>Contact Me</h1>
+          <p>Let's work together</p>
+      </div>
+      <p>I'm glad you've visited my personal portfolio website! <br>
+         If you have any questions, suggestions, or would like to collaborate, <br>
+         please feel free to contact me through this form.</p>
+      <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> alyzajanecutom@gmail.com</p>
+          <p><i class="fas fa-phone"></i> 09919543496</p>
+      </div>
+  </div>
+  <div class="contact-form">
+      <form id="contactForm">
+          <div class="form-group">
+              <label for="name">Enter Your Name</label>
+              <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Enter Your Email</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="subject">Enter Your Subject</label>
+              <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+              <label for="message">Enter Your Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+      </form>
+  </div>
+</section>
+
+<script src="script.js" defer></script>
+    </body>
+</html>
